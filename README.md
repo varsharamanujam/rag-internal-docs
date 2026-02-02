@@ -5,6 +5,7 @@ Employees struggle to find answers across internal PDFs and documents.
 
 ## Architecture
 Documents are ingested, chunked, embedded, stored in a vector DB, and retrieved to provide context to an LLM during query time.
+Ingestion: PyMuPDF for PDF extraction (sample script: extraction.py)
 
 ## Tech Stack
 Python, FAISS, OpenAI API (or equivalent), PDFs
